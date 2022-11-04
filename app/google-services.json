@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657867480946",
+    "project_id": "buku-toko-194ff",
+    "storage_bucket": "buku-toko-194ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657867480946:android:a4620d57d861fea07907eb",
+        "android_client_info": {
+          "package_name": "com.example.bukutoko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657867480946-re65ej59h4741fh12b3c03q11eokel0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV3s6uHAhxM5VYCsvGhnZWKS4c-cvXxME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657867480946-re65ej59h4741fh12b3c03q11eokel0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

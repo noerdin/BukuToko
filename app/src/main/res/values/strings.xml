@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Buku Toko</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_password">Password</string>
+    <string name="text_create_account">Create Account</string>
+    <string name="text_login">Login</string>
+    <string name="text_email">Email</string>
+    <string name="text_new_here">New Here ?</string>
+    <string name="text_user_name">User Name</string>
+    <string name="text_already_have_an_account">Already Have an Account ?</string>
+    <string name="text_welcome">Hi,</string>
+    <string name="text_atur_stok">Atur Stok</string>
+    <string name="text_tambah_barang_baru">Tambah Barang Baru</string>
+    <string name="text_nama_barang">Nama Barang</string>
+    <string name="text_harga_jual">Harga Jual</string>
+    <string name="text_tambah_barang">Tambah Barang</string>
+    <string name="text_detail_barang">Detail Barang</string>
+    <string name="text_yakin_hapus_barang">Yakin hapus barang?</string>
+    <string name="text_penambahan_stok">Penambahan Stok</string>
+
+    <string-array name="satuan">
+        <item>Botol</item>
+        <item>Bungkus</item>
+        <item>Dus</item>
+        <item>Karung</item>
+        <item>Kaleng</item>
+        <item>Kg</item>
+        <item>Pcs</item>
+        <item>Lembar</item>
+        <item>Liter</item>
+        <item>Pasang</item>
+    </string-array>
+
+    <string-array name="stok">
+        <item>Penambahan Stok</item>
+        <item>Pengurangan Stok</item>
+    </string-array>
+</resources>
