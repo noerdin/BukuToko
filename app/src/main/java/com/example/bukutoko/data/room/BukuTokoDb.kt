@@ -1,10 +1,10 @@
-package com.example.bukutoko.room
+package com.example.bukutoko.data.room
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.bukutoko.room.entity.ItemEntity
+import com.example.bukutoko.data.room.entity.ItemEntity
 
 @Database(entities = [ItemEntity::class], version = 1)
 abstract class BukuTokoDb: RoomDatabase() {
@@ -13,14 +13,16 @@ abstract class BukuTokoDb: RoomDatabase() {
     companion object{
         private var INSTANCE: BukuTokoDb? = null
 
-        fun getInstance(context: Context): BukuTokoDb? {
-            if (INSTANCE == null){
+        fun getInstance(context: Context): BukuTokoDb {
+
+            return INSTANCE ?: run {
                 synchronized(BukuTokoDb::class){
-                    INSTANCE = Room.databaseBuilder(context.applicationContext,
-                    BukuTokoDb::class.java, "BukuToko.db").build()
+                    val db = Room.databaseBuilder(context.applicationContext,
+                        BukuTokoDb::class.java, "BukuToko.db").build()
+                    INSTANCE = db
+                    db
                 }
             }
-            return INSTANCE
         }
         fun destroyInstance(){
             INSTANCE = null

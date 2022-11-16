@@ -1,4 +1,4 @@
-package com.example.bukutoko.room.entity
+package com.example.bukutoko.data.room.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -9,7 +9,8 @@ import androidx.room.PrimaryKey
 data class ItemEntity(
     @PrimaryKey(autoGenerate = true) val id: Long? = null,
     @ColumnInfo(name = "namaBarang") var namaBarang: String?,
-    @ColumnInfo(name = "hargaJual") var hargaJual: Int,
+    @ColumnInfo(name = "hargaJual") var hargaJual: String?,
     @ColumnInfo(name = "satuan") var satuan: String?,
-    @ColumnInfo(name = "stok") var stok: Int
+    @ColumnInfo(name = "stok") var stok: String?,
+    @ColumnInfo(name = "tanggal") val tanggal: Long
 )

@@ -17,6 +17,10 @@
     <string name="text_detail_barang">Detail Barang</string>
     <string name="text_yakin_hapus_barang">Yakin hapus barang?</string>
     <string name="text_penambahan_stok">Penambahan Stok</string>
+    <string name="text_satuan">Satuan</string>
+    <string name="text_error_nama_barang">Masukan Nama Barang</string>
+    <string name="text_error_harga_jual">Masukan Harga Jual</string>
+    <string name="text_error_jumlah_stok">Masukan Jumlah Stok</string>
 
     <string-array name="satuan">
         <item>Botol</item>

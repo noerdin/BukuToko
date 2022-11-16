@@ -1,4 +1,4 @@
-package com.example.bukutoko.room
+package com.example.bukutoko.data.room
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.example.bukutoko.room.entity.ItemEntity
+import com.example.bukutoko.data.room.entity.ItemEntity
 
 @Dao
 interface ItemDao {
